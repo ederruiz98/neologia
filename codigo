@@ -2,9 +2,6 @@
   "cells": [
     {
       "cell_type": "markdown",
-      "metadata": {
-        "id": "XlixIIotok1-"
-      },
       "source": [
         "# 0. Librerías y paquetes"
       ]
@@ -12,13 +9,6 @@
     {
       "cell_type": "code",
       "execution_count": 1,
-      "metadata": {
-        "colab": {
-          "base_uri": "https://localhost:8080/"
-        },
-        "id": "QmCEf53bjD8X",
-        "outputId": "8e6a3516-f864-4f93-94c2-a25e4f87b27f"
-      },
       "outputs": [
         {
           "output_type": "stream",
@@ -40,10 +30,6 @@
             "Requirement already satisfied: six>=1.5 in /usr/local/lib/python3.10/dist-packages (from python-dateutil>=2.7->matplotlib->adjustText) (1.16.0)\n",
             "Installing collected packages: adjustText\n",
             "Successfully installed adjustText-1.1.1\n",
-            "Collecting fuzzywuzzy\n",
-            "  Downloading fuzzywuzzy-0.18.0-py2.py3-none-any.whl (18 kB)\n",
-            "Installing collected packages: fuzzywuzzy\n",
-            "Successfully installed fuzzywuzzy-0.18.0\n"
           ]
         },
         {
@@ -98,11 +84,6 @@
         "  !pip install adjustText\n",
         "  from adjustText import adjust_text\n",
         "\n",
-        "\n",
-        "# Fuzzy search box for the object prototype keys\n",
-        "from ipywidgets import interact, widgets\n",
-        "!pip install fuzzywuzzy\n",
-        "from fuzzywuzzy import process\n",
         "\n",
         "# 3D visualization\n",
         "import plotly.graph_objects as go\n",
